@@ -1,10 +1,10 @@
-import React from "react";
-import { Profile } from "./page/Profile";
-import Header from "./componens/Header";
-import Movies from "./page/Movies";
-import Search from "./componens/Search";
-import { StateMovies } from "./context/StateMovies";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import React from 'react';
+import { Profile } from './page/Profile';
+import Header from './componens/Header';
+import Movies from './page/Movies';
+import Search from './componens/Search';
+import { StateMovies } from './context/StateMovies';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
